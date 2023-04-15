@@ -201,4 +201,18 @@
     
     .footer {
         background-color: #1f2937;
+        display:
+    }
+    
+    .footer-txt {
+        text-align: ;
+        border: 2px red solid;
+        margin: 0 10rem;
+    }
+    
+    .footer-text {
+        margin: 2rem;
+        color: white;
+        text-align: center;
+        font-size: 18px;
     }
