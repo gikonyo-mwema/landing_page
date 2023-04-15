@@ -60,7 +60,7 @@
         margin-top: 1rem;
         margin-bottom: 5rem;
         margin-left: 10rem;
-        margin-right: 5rem;
+        margin-right: 10rem;
     }
     
     .hero {
@@ -80,7 +80,7 @@
         display: flex;
         justify-content: space-between;
         margin-left: 10rem;
-        margin-right: 5rem;
+        margin-right: 10rem;
         margin-bottom: 6rem;
     }
     
@@ -110,8 +110,9 @@
     /*********************** SERVICES ************************/
     
     .services {
-        background-color: #e5e7eb;
         display: flex;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
         flex-direction: column;
         align-items: center;
     }
@@ -130,22 +131,20 @@
     
     .service {
         border: 4px solid #3882f6;
-        border-radius: 12px;
-        margin: 30px;
+        border-radius: 20px;
+        margin: 25px;
         width: 180px;
         height: 180px;
     }
     
     .service-descr {
         display: flex;
-        color: red;
     }
     
     .service-txt {
-        border: 2px black solid;
         width: 180px;
         height: auto;
-        margin: 0 30px;
+        margin: 0 25px;
         align-items: center;
         justify-content: center;
     }
@@ -154,10 +153,49 @@
     .testimonial {
         background-color: #e5e7eb;
     }
+    
+    .testimonial-wrapper {
+        margin-top: 5rem;
+    }
+    
+    .testimonial-txt {
+        /*border: solid 2px orange;*/
+        margin-left: 14rem;
+        margin-right: 14rem;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
     /*********************** CALL TO ACTION ************************/
     
     .action {
         background-color:
+    }
+    
+    .action-wrapper {
+        margin: 5rem 10rem;
+    }
+    
+    .action-txt {
+        /* border: solid 2px yellow;*/
+        background-color: #3882f6;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    
+    .action-text {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .btn {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .action-btn {
+        border: white 2px solid;
     }
     /*********************** FOOTER ************************/
     
