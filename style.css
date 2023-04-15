@@ -57,7 +57,14 @@
         align-items: center;
         /*background-color: green;*/
         padding: ;
-        margin: 1rem 10rem
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+        margin-left: 10rem;
+        margin-right: 5rem;
+    }
+    
+    .hero {
+        font-size: 30px;
     }
     
     .menu-list li {
@@ -69,17 +76,17 @@
     }
     
     .main-hero {
-        background-color: indigo;
+        /*background-color: indigo;*/
         display: flex;
         justify-content: space-between;
-        margin-top: 4rem;
         margin-left: 10rem;
-        margin-right: 10rem;
+        margin-right: 5rem;
         margin-bottom: 10rem;
     }
     
     .hero-text {
-        padding: 20px 0;
+        padding-right: 50px;
+        /*border: 1PX SOLID WHITE;*/
     }
     
     p {
@@ -88,7 +95,7 @@
     }
     
     img {
-        width: 560px;
+        width: 500px;
         height: auto;
         border-radius: 8px;
     }
