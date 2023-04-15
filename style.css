@@ -1,8 +1,12 @@
-    * {}
+    * {
+        margin: 0;
+        padding: 0;
+    }
     /*********************** HEADER ************************/
     
     .header {
         background-color: #1f2937;
+        padding: 10px 20px;
     }
     
     div .logo {
@@ -15,12 +19,17 @@
         color: #e5e7eb;
     }
     
+    ul {
+        list-style: none;
+        text-align: center;
+    }
+    
     p {
         font-size: 18px;
         color: #e5e7eb;
     }
     
-    p span {
+    span {
         font-size: 48px;
         color: #f9faf8;
         font-weight: 900;
@@ -43,11 +52,34 @@
     
     .header-menu {
         display: flex;
-        background-color: black;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    
+    .header-menu .menu-list {
+        display: flex;
+        align-content: center;
+        background-color: red;
     }
     
     .main-hero {
         display: flex;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    
+    img {
+        width: 550px;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .hero-text .main-text {
+        padding: 20px 0 20px 0;
+    }
+    
+    .hero-text p {
+        padding: 20px 0 20px 0;
     }
     /*********************** SERVICES ************************/
     
