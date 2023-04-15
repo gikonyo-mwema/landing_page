@@ -81,7 +81,7 @@
         justify-content: space-between;
         margin-left: 10rem;
         margin-right: 5rem;
-        margin-bottom: 10rem;
+        margin-bottom: 6rem;
     }
     
     .hero-text {
@@ -110,7 +110,44 @@
     /*********************** SERVICES ************************/
     
     .services {
-        background-color:
+        background-color: #e5e7eb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service-text {
+        font-size: 30px;
+        font-weight: extra-bold;
+        color: #1f2937;
+    }
+    
+    .services-box {
+        display: flex;
+        justify-content: center;
+        align-items: ;
+    }
+    
+    .service {
+        border: 4px solid #3882f6;
+        border-radius: 12px;
+        margin: 30px;
+        width: 180px;
+        height: 180px;
+    }
+    
+    .service-descr {
+        display: flex;
+        color: red;
+    }
+    
+    .service-txt {
+        border: 2px black solid;
+        width: 180px;
+        height: auto;
+        margin: 0 30px;
+        align-items: center;
+        justify-content: center;
     }
     /*********************** TESTIMONIAL ************************/
     
