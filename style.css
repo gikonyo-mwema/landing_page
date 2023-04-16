@@ -76,6 +76,10 @@
         /*background-color: red;*/
     }
     
+    .menu-list-links {
+        font-weight: bold;
+    }
+    
     .main-hero {
         /*background-color: indigo;*/
         display: flex;
